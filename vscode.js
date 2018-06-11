@@ -72,4 +72,5 @@
     "*.html": "liquid"
   },
   "bracketPairColorizer.forceIterationColorCycle": true,
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish"
 }
