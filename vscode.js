@@ -11,8 +11,9 @@
   "editor.renderLineHighlight": "none",
   "editor.scrollbar.horizontal": "hidden",
   "explorer.openEditors.visible": 0,
-  "window.zoomLevel": -1,
+  "window.zoomLevel": 1,
   "workbench.activityBar.visible": false,
+  "editor.snippetSuggestions": "top",
   "workbench.iconTheme": null,
   "workbench.editor.showIcons": false,
   "workbench.statusBar.visible": false,
@@ -39,10 +40,16 @@
   "[javascript]": {
     "editor.formatOnSave": true
   },
+  "[glsl]": {
+    "editor.formatOnSave": true
+  },
   "[scss]": {
     "editor.formatOnSave": true
   },
   "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
     "editor.formatOnSave": true
   },
   "prettier.printWidth": 80,
@@ -72,5 +79,6 @@
     "*.html": "liquid"
   },
   "bracketPairColorizer.forceIterationColorCycle": true,
-  "terminal.integrated.shell.osx": "/usr/local/bin/fish"
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
